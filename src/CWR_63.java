@@ -11,7 +11,7 @@ public class CWR_63 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("enter the number of elements: ");
+        System.out.print("enter no of elements: ");
         int n = sc.nextInt();
         int[] arr = new int[n];
 
@@ -21,7 +21,6 @@ public class CWR_63 {
         }
         System.out.print("enter element to search: ");
         int key = sc.nextInt();
-
         int index = linearsearch(arr, arr.length, key);
         if (index != -1) {
             System.out.println("element is present at index " + index);
